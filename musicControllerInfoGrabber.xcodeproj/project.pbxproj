@@ -13,6 +13,8 @@
 		45311A1D1B6A16EB00C47391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45311A1C1B6A16EB00C47391 /* Images.xcassets */; };
 		45311A201B6A16EB00C47391 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45311A1E1B6A16EB00C47391 /* LaunchScreen.xib */; };
 		45311A2C1B6A16EB00C47391 /* musicControllerInfoGrabberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45311A2B1B6A16EB00C47391 /* musicControllerInfoGrabberTests.swift */; };
+		45311A361B6A2B2800C47391 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45311A351B6A2B2800C47391 /* MediaPlayer.framework */; };
+		45311A381B6A2B2E00C47391 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45311A371B6A2B2E00C47391 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		45311A251B6A16EB00C47391 /* musicControllerInfoGrabberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = musicControllerInfoGrabberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45311A2A1B6A16EB00C47391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45311A2B1B6A16EB00C47391 /* musicControllerInfoGrabberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicControllerInfoGrabberTests.swift; sourceTree = "<group>"; };
+		45311A351B6A2B2800C47391 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		45311A371B6A2B2E00C47391 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45311A381B6A2B2E00C47391 /* UIKit.framework in Frameworks */,
+				45311A361B6A2B2800C47391 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		45311A071B6A16EB00C47391 = {
 			isa = PBXGroup;
 			children = (
+				45311A371B6A2B2E00C47391 /* UIKit.framework */,
+				45311A351B6A2B2800C47391 /* MediaPlayer.framework */,
 				45311A121B6A16EB00C47391 /* musicControllerInfoGrabber */,
 				45311A281B6A16EB00C47391 /* musicControllerInfoGrabberTests */,
 				45311A111B6A16EB00C47391 /* Products */,
